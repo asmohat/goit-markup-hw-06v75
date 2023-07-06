@@ -623,6 +623,7 @@ body {
     outline: none;
     padding: 8px 12px;
     margin-bottom: 20px;
+    resize: none;
 }
 
 .form-field-coment:focus {
