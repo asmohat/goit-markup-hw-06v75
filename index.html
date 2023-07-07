@@ -343,22 +343,22 @@
                                 </svg> 
                             </div>
                             <label class="form-field-label" for="user-coment">Коментар</label>              
-                            <textarea 
-                                class="form-field-coment" 
-                                name="user-coment" 
-                                id="user-coment" 
-                                placeholder="Введіть текст">
-                            </textarea>
-                            <div>
+                            <textarea class="form-field-coment" name="user-coment" placeholder="Введіть текст" id="user-coment"></textarea>
+                            <label class="modal-form-agreement">
                                 <input 
-                                    id="terms-checkbox" 
-                                    class="terms-checkbox" 
+                                    class="modal-form-checkbox visualy-hidden" 
                                     type="checkbox" 
-                                    name="terms-checkbox">
-                                <label for="terms-checkbox" >
-                                    Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a>
-                                </label>
-                            </div>
+                                    name="modal-form-checkbox">
+                                    <span class="modal-form-custom-checkbox">
+                                        <svg class="modal-form-checkbox-icon"  width="16" height="15">
+                                            <use href="./images/icons.svg#icon-checkbox">
+                                            </use>
+                                        </svg>
+                                    </span>
+                                    <span class="modal-form-agreement-desc">
+                                    Погоджуюся з розсилкою та приймаю <a class="modal-form-agreement-link" href="#">Умови договору</a>
+                                    </span>
+                            </label>
                             <button type="submit" class="form-submit main-effect-button">Відправити</button>
                         </form>
                     </div>
